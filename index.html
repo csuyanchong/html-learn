@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="张三">
+  <meta name="description" content="该页面包含html初学者所需要了解的东西">
+  <title>HTML学习笔记</title>
+  <link rel="icon" href="./img/html.png" type="image/x-icon">
+  <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+  <header>
+    <h1>HTML 学习笔记 !</h1>
+    <img src="./img/notes.png" alt="笔记图标" width="128" height="128" loading="lazy">
+    <p>2023年10月15日11:23:58 周六</p>
+
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li>
+          <a href="#plugin">插件</a>
+        </li>
+        <li>
+          <a href="#language">语言</a>
+        </li>
+        <li>
+          <a href="#performance">性能</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+
+  <main>
+    <article id="plugin">
+      <h2>VSCODE 插件</h2>
+      <p>这里汇总了作者推荐的vscode扩展插件。</p>
+
+      <section>
+        <img src="./img/web-plugin.png" alt="插件图标" width="128" height="128" loading="lazy">
+      </section>
+
+      <section>
+        <p>主要的vscode插件有：</p>
+        <ol>
+          <li>Prettier 代码格式化</li>
+          <li>Vscode-icons 文件图标</li>
+          <li>Github theme 主题</li>
+          <li>Live server 本地服务器</li>
+        </ol>
+      </section>
+
+    </article>
+    <hr>
+
+    <article id="language">
+      <h2>HTML 语言</h2>
+      <img src="./img/html.png" alt="html图标" width="128" height="128" loading="lazy">
+      <figure>
+        <figcaption>HTML5代码示例</figcaption>
+        <p>
+          <code>
+          &lt;h1&gt;Hello World&lt;/h1&gt;
+        </code>
+        </p>
+      </figure>
+      <p>html的语法规则：</p>
+      <ul>
+        <li>使用<a href="https://validator.w3.org">https://validator.w3.org</a>验证文件</li>
+        <li>meta不带'/>'标签</li>
+        <li>资源引用。绝对链接，相对链接，内部链接</li>
+      </ul>
+      <!--TODO：增加更多-->
+    </article>
+    <hr>
+
+    <article id="performance">
+      <h2>性能优化</h2>
+      <img src="./img/performance.png" alt="性能优化图标" width="128" height="128" loading="lazy">
+      <p>html的性能优化方法：</p>
+      <ul>
+        <li>Img的loading属性设为lazy，可以延迟加载；</li>
+      </ul>
+    </article>
+  </main>
+  <hr>
+
+  <footer>
+    <p>
+      &lt; &lt; &lt;&copy; <a href="./about.html">Zhang San</a> &gt;&gt;&gt;
+    </p>
+
+    <p>
+      <a href="#">返回顶部</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
