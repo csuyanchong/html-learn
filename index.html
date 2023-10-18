@@ -92,8 +92,41 @@
       <h2>问题反馈</h2>
       <p>欢迎联系我！</p>
       <form action="http://localhost/get" method="get">
-        <label for="xingming">姓名：</label>
-        <input type="text" name="xingming" id="xingming">
+        <p>
+          <label for="name">姓名：</label>
+          <input type="text" name="name" id="name" placeholder="张三" autocomplete="on" required autofocus>
+        </p>
+
+        <p>
+          <label for="mail">邮箱：</label>
+          <input type="text" name="mail" id="mail" placeholder="123456@qq.com" autocomplete="on" required>
+        </p>
+
+        <p>
+          <label for="password">密码：</label>
+          <input type="password" name="password" id="password" placeholder="你的密码" required>
+        </p>
+
+        <p>
+          <label for="phone">电话：</label>
+          <input type="tel" name="phone" id="phone" placeholder="010-0000000" required>
+        </p>
+
+        <p>
+          <label for="decade">最喜欢的年代：</label>
+          <input type="number" name="decade" id="decade" value="2010" required min="1950" max="2020" step="10">
+        </p>
+
+        <p>
+          <label for="coffee">最喜欢的咖啡：</label>
+          <select name="coffee" id="coffee">
+            <option value="regular">常温</option>
+            <option value="iced">加冰</option>
+            <option value="latte" selected>拿铁</option>
+            <option value="cappuccino">卡布奇诺</option>
+            <option value="other">其它</option>
+          </select>
+        </p>
       </form>
     </article>
   </main>
